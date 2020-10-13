@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        #container{
+            width: 600px;
+            height: 200px;
+            border: solid;
+        }
+        #item {
+            
+            height: 100%;
+            width: 500px;
+            background-color: black;
+/*            max width will override the width. if it is less than width*/
+            
+            max-width: 200px;
+            
+            min-width:400px;
+/*            min-width override max-width if it is greater than maz-width*/
+            
+/*            why*/
+            
+
+ }
+        
+        
+        p{
+            min-width: 200px;
+            max-width: 800px;
+            height: 200px:
+            background: linear-gradient(to right, white, red);
+            
+            
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+       <div id="item"></div>
+   </div> 
+</body>
+</html>

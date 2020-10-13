@@ -3,15 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        .container{
+            
+            width: 400px;
+            height: 400px;
+            border: solid;
+            
+        }
+        .container *{
+            width: 200px;
+            height: 200px;
+           
+            
+        }
+        
+        #item1{
+            
+            background-color: #89e8ff;
+            z-index: 200;
+            position: relative;
+            
+        }
+        
+        #item2{
+            
+            background-color: #ffa6a6;
+            
+            position: relative;
+            bottom: 100px;
+            left:100px;
+            z-index: 100;
+        }
+        
+    
+    
+    </style>
 </head>
 <body>
-   <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg" width="1000" alt="">
-   
-   <img src="https://i.pinimg.com/236x/fb/5d/f9/fb5df95ead40367a3c40eb663b0023e7.jpg" alt="">
-   
-   <p>barry the bee an icon. a true legend of out generation :)) </p>
-   
-   
-    
+    <div class="container">
+        <div id="item1"></div>
+        <div id="item2"></div>
+    </div>
 </body>
 </html>

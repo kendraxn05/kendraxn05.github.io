@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+
+        width: 300px;
+        height: 200px;
+        background-color: #6159be;
+        margin: 20px;
+        position: relative;
+    }
+
+    .item {
+
+        width: 150px;
+        height: 70px;
+        background-color: #ffacac;
+    }
+
+    #container1 .item {
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    
+    #container2{
+        display: flex;
+    }
+    
+    #container2 .item{
+        margin: auto;
+        
+    }
+    
+    #container3 .item{
+        
+        position: absolute;
+        top:50%;
+        left:50%;
+        
+        transform: translate(-50%, -50%);
+    }
+</style>
+
+<body>
+    <div id="container1" class="container">
+        <div class="item">item</div>
+    </div>
+    <div id="container2" class="container">
+        <div class="item">item</div>
+    </div>
+    <div id="container3" class="container">
+        <div class="item">item</div>
+    </div>
+</body></html>

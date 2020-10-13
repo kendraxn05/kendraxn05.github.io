@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        #container {
+
+            width: 700px;
+            height: 300px;
+            border: solid;
+        }
+
+        #left,
+        #right {
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            font-size: 4rem;
+        }
+
+        #left {
+
+            background-color: #8290c9;
+            padding: 50px;
+            border: solid 50px;
+            
+            box-sizing: border-box;
+/*            box-sizing: content-box;*/
+            
+        }
+
+        #right {
+            background-color: #ff9090;
+            margin-left: -4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="right">left</div>
+        <div id="left">right</div>
+    </div>
+</body></html>

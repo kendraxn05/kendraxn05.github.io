@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Document</title>
+     
+     <style>
+         body{
+             
+             border: solid blue;
+         }
+         
+         body:hover p{
+             
+             background-color: #8c44ff;
+             transition: 1s;
+         }
+                 ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+
+            background-color: #ff60ff;
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        }
+
+
+
+         #container{
+             border: solid;
+             width: 600px;
+             font-size: 8rem;   
+             /*         overflow
+         
+         if child size larger than parent size, use overflow to style*/
+             overflow: visible;
+             overflow: hidden;
+             overflow: scroll;
+/*             overflow: auto;*/
+             
+         }
+         p{
+             width: 800px;
+             background-color: #ffb3b3;
+         }
+
+     
+     </style>
+ </head>
+ <body>
+<!--    #container>p{0 1 2 3 4 5 6 7 8 9 }-->
+    <div id="container">
+        <p>0 1 2 3 4 5 6 7 8 9 </p>
+    </div>
+     
+ </body>
+ </html>

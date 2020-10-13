@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    form { border: solid 2px;
+        width: 400px;}
+        
+        input { width: 80%;
+                height: 50px;}
+    
+    </style>
+</head>
+<body>
+<form action="login" method="get">
+    <label for='name'>username</label>
+   <input name='name' type="text">
+   
+   <br>
+     <label for='password'> password</label>
+   <input name='password'     type="password">
+   <br>
+    <button>log in</button>
+    <p>Forgot account?</p>
+    <hr>
+    <button>Create New Account</button><hr>
+    <label for="username"></label>
+    
+    <textarea name="" id="" cols="30" rows="10">write some comments</textarea>
+    <br>
+    <!--dropdown list-->
+    <select name="" id="">
+        <option value="">hotdog</option>
+        <option value="">pizza</option>
+        <option value="">poutine</option>
+    </select>
+    
+    
+    <!--you can type your own option list-->
+    
+    <input type="text" list='data'>
+        <datalist id="data">
+            <option value="hotdog"></option>
+            <option value="pizza"></option>
+            <option value="poutine"></option>
+        </datalist>
+       
+    <meter min="1" max="100" value=60></meter>
+    
+    <progress  min="1" max="100" value=60></progress>
+    
+    <!--in0put-->
+    
+    <input type="number"><br>
+    <input type='email'>
+    <input type= "url">
+    <input type="tel">
+    <input type="range" min=1 max=5 value=2>
+    <input type="color">
+    <input type="file">
+    <input type="search">
+    <input type="date">
+    <input type="time">
+    <input type="week">
+    <input type="month">
+    <input type="datetime-local">
+    <input type="radio" name='payment' value="master">master
+    <input type="radio" name="payment" value="visa">visa
+    <input type="radio" name='payment' value="paypal">paypal
+    <input type="checkbox" name='order' value="hotdog">hotdog
+    <input type="checkbox" name='order' value="pizza">pizza
+    <input type="checkbox" name='order' value="poutine">poutine
+    
+</form>
+</body>
+</html>
